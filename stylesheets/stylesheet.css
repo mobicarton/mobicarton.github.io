@@ -455,6 +455,14 @@ header {
   border-bottom: solid 1px #6D5135;
 }
 
+#logo {
+     float: left !important;
+     padding-right: 10px;
+     padding-top: 2px;
+     width: 64px;
+     height: 64px;
+}
+
 header h1 {
   width: 540px;
   margin-top: 0;
@@ -788,6 +796,10 @@ footer a:hover {
   header h1, header h2 {
     width: 340px;
   }
+  #logo {
+      width: 52px;
+      height: 52px;
+  }
   header h1 {
     font-size: 60px;
   }
@@ -822,6 +834,10 @@ footer a:hover {
   }
   header h1, header h2 {
     width: 100%;
+  }
+  #logo {
+      width: 40px;
+      height: 40px;
   }
   header h1 {
     font-size: 48px;
