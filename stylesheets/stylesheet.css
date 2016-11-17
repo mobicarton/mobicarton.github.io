@@ -769,6 +769,10 @@ footer a:hover {
   color: #444;
 }
 
+.logo_funder {
+    margin-right: 16px;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
