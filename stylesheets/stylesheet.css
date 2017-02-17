@@ -786,6 +786,13 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+
+#youtube {
+    width: 672px;
+    height: 378px;
+}
+
+
 /* #Media Queries
 ================================================== */
 
@@ -822,6 +829,11 @@ footer a:hover {
     padding-right: 0;
     margin-left: 0;
     content: none;
+  }
+
+  #youtube {
+      width: 448px;
+      height: 252px;
   }
 }
 
@@ -894,6 +906,11 @@ footer a:hover {
     padding-right: 0;
     margin-left: 0;
     content: none;
+  }
+
+  #youtube {
+      width: 100%;
+      height: 252px;
   }
 }
 
