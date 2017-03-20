@@ -797,6 +797,10 @@ footer a:hover {
     display: block;
 }
 
+#badgeGooglePlay {
+    width: 196px;
+}
+
 
 /* #Media Queries
 ================================================== */
