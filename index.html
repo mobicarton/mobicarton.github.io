@@ -1,116 +1,188 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <link rel="icon" type="image/png" href="images/favicon.png" />
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/favicon.png">
 
     <title>Carton</title>
-</head>
 
-<body>
-    <header>
-        <div class="inner">
-            <img id="logo" src="images/logo.png" alt="Carton logo"/>
-            <h1>Carton</h1>
-            <h2>DIY Augmented Reality Tool</span></h2>
-            <a href="https://github.com/mobicarton" class="button"><small>Join us on</small> GitHub</a>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/carton_custom.css" rel="stylesheet">
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="64">
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:#D0A77A">
+      <a class="navbar-brand" href="#">
+          <img class="icon" src="assets/img/logo_carton_white_144.png" style="margin-right:8px;"/>
+          Carton
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#build">Build</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#developers">Developers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#research">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#partners">Partners</a>
+          </li>
+        </ul>
+        <div>
+            <a href="https://github.com/mobicarton"><img src="assets/img/GitHub-Mark-Light-120px-plus.png" class="icon" alt="Github Repository - Carton"/></a>
+            <a href="https://www.youtube.com/channel/UCppD4qvSLSMpTHOSFxqwkuw"><img src="assets/img/YouTube-logo-light.png" class="icon" alt="Youtube Channel - Carton"/></a>
+            <a href="https://www.facebook.com/cartonmobi"><img src="assets/img/FB-f-Logo__white_144.png" class="icon" style="margin-top: 10px; margin-bottom: 10px;" alt="Facebook Page - Carton"/></a>
         </div>
-    </header>
+      </div>
+    </nav>
 
-    <div id="content-wrapper">
-        <div class="inner clearfix">
-            <section id="main-content">
-                <img src="images/carton_steps.jpg" alt="Carton"/>
 
-                <blockquote>
-                    <p>turn the <b>Phone</b> to <b>Glass</b> of your <b>Smart</b> device</p>
-                </blockquote>
-
-                <h3><a id="contribute" class="anchor" href="#contribute" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Contribute!</h3>
-                <p>
-                    <a href="https://www.facebook.com/cartonmobi" alt="Facebook - Carton">
-                        <img id="facebook-find-us" src="images/FB.png" alt="Find Us on Facebook"/>
-                    </a>
-                    <br/>
-                    Join us on Facebook (page/community group) and Github to talk with us, make any comments (even the bad one), post pictures, find issues, design a new version (a nicer one...), develop another SDK/package, etc.!
-                </p>
-
-                <h3><a id="what-is-carton" class="anchor" href="#what-is-carton" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> What is Carton?</h3>
-                <p>
-                    Besides a pun with the lovely <a href="https://vr.google.com/cardboard/">Cardboard</a> from Google, Carton is a Do-It-Yourself smart glasses (also called Optical Head Mounted Display, but it’s less sexy) using a mobile phone and simple materials like cardboard.
-                </p>
-                <p>
-                    Carton has been subject of a scientific publication for the MoMM'16 Conference that you could find on <a href="http://dl.acm.org/">ACM Digital Library</a> and in an <a href="http://r-libre.teluq.ca/1029/">open access research publication repository</a>.
-                </p>
-
-                <iframe id="youtube" src="https://www.youtube.com/embed/GiPo4efbewo" frameborder="0" allowfullscreen></iframe>
-
-                <h3><a id="why-this-project" class="anchor" href="#why-this-project" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Why this project?</h3>
-                <p>
-                    Smart glasses are still expensive and hard to get, this project intends to fix theses issues. By allowing everyone to create some prototype, try new experiments and researches with, Carton aims to improve innovation and creativity by openly providing a simple way to access theses technologies.
-                </p>
-
-                <h3><a id="how-to-get-one" class="anchor" href="#how-to-get-one" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Try it! How to get one?</h3>
-                <p>
-                    Until someone sells a kit or even a fully created Carton, for now the easiest way to get one is to build it by yourself. It’s quick, affordable and easy. Just print the <a href="https://github.com/mobicarton/guide-template">template</a> and follow the construction guide on <a href="http://www.instructables.com/id/Carton-DIY-Smart-Eyewear/">instructable</a> or watch this <a href="https://www.youtube.com/watch?v=3ww5lE8PVsc">Youtube</a> video. Everything is explained from the list of material and tools, to the template and each step.
-                    <br/>
-                    Also, to easily try it, an official demonstration app is available on the Google Play Store.
-                    <br/>
-                    <a href="https://play.google.com/store/apps/details?id=mobi.carton">
-                        <img id="badgeGooglePlay" src="images/google-play-badge.png" alt="Get it on Google Play"/>
-                    </a>
-                </p>
-
-                <h3><a id="developer" class="anchor" href="#developer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Developer?</h3>
-                <p>
-                    <a href="https://github.com/mobicarton/carton-android">Carton for Android SDK</a> enable you to easily create or adapts existing apps for Carton with auto-adapting screen and gesture recognition. It is also packed with the official demo app that you can explore for the sake of learning. It is fully compatible with augmented reality technologies (Vuforia, etc.).
-                </p>
-
-                <h3><a id="partners" class="anchor" href="#partners" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Partners</h3>
-                <p>
-                    It’s an open-source, open-hardware, open-everything, open-blablabla project, everyone is welcome and encouraged to contribute on <a href="https://github.com/mobicarton">GitHub</a> or feel free to send an <code>email: dbrun at licef dot ca</code>
-                </p>
-                <p>
-                    Furthermore, this project is partially funded by governmental institution <a href="http://nserc-crsng.gc.ca/index_eng.asp">Natural Sciences and Engineering Research Council of Canada</a> and private companies <a href="http://44screens.com/en-us">44 screens</a> and <a href="http://www.lileimaginair.com">l'île imagin'air</a>.
-                </p>
-                <p>
-                    <a href="http://nserc-crsng.gc.ca/index_eng.asp"><img src="images/logo_nserc.png" class="logo_partner" alt="NSERC Canada logo"/></a>
-                    <a href="http://44screens.com/en-us"><img src="images/logo_44screens.png" class="logo_partner" alt="44 screens logo"/></a>
-                    <a href="http://www.lileimaginair.com"><img src="images/logo_lileimaginair.png" class="logo_partner" alt="l'île imagin'air logo"/></a>
-                <p/>
-                <p>
-                    It is also supported by academic laboratories <a href="http://www.licef.teluq.ca/">LICEF</a>, <a href="http://www-lium.univ-lemans.fr/en">LIUM</a> and universities <a href="http://www.teluq.ca/">TELUQ</a>, <a href="http://www.univ-lemans.fr/en">Université&nbsp;du&nbsp;Maine</a>.
-                </p>
-                <p>
-                    <a href="http://www.teluq.ca/"><img src="images/logo_teluq.png" class="logo_partner" alt="TELUQ logo"/></a>
-                    <a href="http://www.licef.teluq.ca/"><img src="images/logo_licef.png" class="logo_partner" alt="LICEF logo"/></a>
-                    <a href="http://www.univ-lemans.fr/en"><img src="images/logo_um.png" class="logo_partner" alt="Université du Maine logo"/></a>
-                    <a href="http://www-lium.univ-lemans.fr/en"><img src="images/logo_lium.png" class="logo_partner" alt="LIUM logo"/></a>
-                </p>
-            </section>
-
-            <aside id="sidebar">
-                <p>
-                    This page was initially generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-                </p>
-                <a href="https://play.google.com/store/apps/details?id=mobi.carton" alt="QR Code - Carton">
-                    <img id="QRCode" src="images/Unitag_QRCode_Carton.png" alt="QR Code - Carton App to Google Play Store"/>
-                </a>
-
-            </aside>
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">Open DIY Augmented Reality Tool</h1>
+            <p class="lead">
+                Turn the <b>Phone</b> to <b>Glass</b> of your <b>Smart</b> device.
+                <br/>
+                Carton is a Do-It-Yourself smart glasses using a mobile phone and simple materials like cardboard.
+                <br/>
+                Smart glasses are still expensive and hard to obtain, this humble project intends to fix these issues by allowing everyone to create some prototype, customize it and try new experiments. <b>Carton</b> aims to improve innovation and creativity by openly providing a simple way to access these technologies.
+            </p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">See pictures</a>
+            </p>
         </div>
     </div>
-</body>
 
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- START THE FEATURETTES -->
+
+
+      <div id="education" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Education. <span class="text-muted">Engage your students in Science and Technology.</span></h2>
+          <p class="lead">Construct, explore and experience Augmented Reality in the classroom. Use the mobile app CartonEd dedicated to build the Carton.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="assets/img/experiment_summer_camp_square.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div id="build" class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Build. <span class="text-muted">Try.</span></h2>
+          <p class="lead">
+              Build it yourself, it is quick, affordable and easy. Just print the blueprint and follow the construction guide on <a href="http://www.instructables.com/id/Carton-DIY-Smart-Eyewear/">Instructable</a> or watch these <a href="https://www.youtube.com/channel/UCppD4qvSLSMpTHOSFxqwkuw">Youtube videos</a>. Everything is explained from the list of material and tools, to the blueprints and each step.
+              <br/>
+              An official demonstration app is available on the <a href="https://play.google.com/store/apps/details?id=mobi.carton">Google Play Store.</a> </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="featurette-image img-fluid mx-auto" src="assets/img/carton_v1_build.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div id="developers" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Developers. <span class="text-muted">Create your augmented experiences.</span></h2>
+          <p class="lead"><a href="https://github.com/mobicarton/carton-android">Carton for Android SDK</a> enable you to easily create or adapts existing apps for Carton with auto-adapting screen and gesture recognition. It is packed with the official demo app that you can explore for the sake of learning. It is open-source and fully compatible with augmented reality technologies such as Vuforia.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="assets/img/android_studio.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div id="research" class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Research. <span class="text-muted"></span></h2>
+          <p class="lead">
+              Carton project has been subject of scientific publications.
+              <ul>
+                  <li>14th International Conference on Advances in Mobile Computing &amp; Multimedia (MoMM2016) - <a href="http://r-libre.teluq.ca/1029/">CARTON Project: Do-It-Yourself Approach to Turn a Smartphone into a Smart Eyewear</a></li>
+                  <li>International Journal of Pervasive Computing and Communications - <a href="http://www.emeraldinsight.com/doi/abs/10.1108/IJPCC-02-2017-0011">A mobile platform for controlling and interacting with a Do-It-Yourself Smart Eyewear</a></li>
+              </ul>
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="featurette-image img-fluid mx-auto" src="assets/img/research_desk_oct2015.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div id="partners" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Partners. <span class="text-muted">Contribute.</span></h2>
+          <p class="lead">
+              This project is funded by governmental institution Natural Sciences and Engineering Research Council of Canada and private companies <a href="http://44screens.com/en-us">44&nbsp;screens</a> and <a href="http://www.lileimaginair.com">l'île imagin'air</a>. It is also supported by academic laboratories LICEF, LIUM and universities TÉLUQ, Le Mans Université.
+              <br/><br/>
+              Everyone is welcome and encouraged to contribute. <b>Contact us</b> on <a href="https://www.facebook.com/cartonmobi">Facebook/Messenger</a> for any inquiries.
+          </p>
+        </div>
+        <div class="col-md-5">
+            <a href="http://nserc-crsng.gc.ca/index_eng.asp"><img class="img-partner" src="assets/img/logo_nserc.png"/></a>
+            <a href="http://44screens.com/en-us"><img class="img-partner" src="assets/img/logo_44screens.png"/></a>
+            <a href="http://www.lileimaginair.com/"><img class="img-partner img-fluid" src="assets/img/logo_lileimaginair.png"/></a>
+            <a href="http://www.licef.teluq.ca/"><img class="img-partner" src="assets/img/logo_licef.png"/></a>
+            <a href="http://www-lium.univ-lemans.fr/en"><img class="img-partner" src="assets/img/logo_lium.png"/></a>
+            <a href="http://www.teluq.ca/site/en/"><img class="img-partner" src="assets/img/logo_teluq_rvb.png"/></a>
+            <a href="http://www.univ-lemans.fr/en"><img class="img-partner img-fluid" src="assets/img/logo_LEMANS_UNIVERSITE.jpg"/></a>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>
+            <a href="https://www.facebook.com/cartonmobi"><img src="assets/img/FB-f-Logo__blue_144.png" class="icon" style="margin-top: 10px; margin-bottom: 10px;" alt="Facebook Page - Carton"/></a>
+            <a href="https://www.youtube.com/channel/UCppD4qvSLSMpTHOSFxqwkuw"><img src="assets/img/YouTube-logo-full_color.png" class="icon" alt="Youtube Channel - Carton"/></a>
+            <a href="https://github.com/mobicarton"><img src="assets/img/Octocat.png" class="icon" alt="Github Repository - Carton"/></a>
+        </p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
